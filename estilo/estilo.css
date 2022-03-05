@@ -6,7 +6,7 @@
 
 h1{
     font-size: 2em;
-
+    text-align: center;
 }
 
 h2{
@@ -18,7 +18,7 @@ p{
 }
 
 body {
-    background-color: rgba(204, 157, 248, 1);
+    background-color: rgb(115, 120, 190);
 }
 
 main {
@@ -40,3 +40,45 @@ main {
 .margin-bottom-zero{
     margin-bottom: 0px;
 }
+
+.center{
+    text-align: center;
+
+}
+
+#logotipo-curso_em_video{
+    text-align: center;
+}
+
+
+.pulse {
+    animation: pulse 0.7s infinite;
+    margin: 0 auto;
+    display: table;
+    margin-top: 50px;
+    animation-direction: alternate;
+    -webkit-animation-name: pulse;
+    animation-name: pulse;
+  }
+  
+  @-webkit-keyframes pulse {
+    0% {
+      -webkit-transform: scale(1);
+      -webkit-filter: brightness(100%);
+    }
+    100% {
+      -webkit-transform: scale(1.1);
+      -webkit-filter: brightness(200%);
+    }
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      filter: brightness(100%);
+    }
+    100% {
+      transform: scale(1.1);
+      filter: brightness(200%);
+    }
+  }
