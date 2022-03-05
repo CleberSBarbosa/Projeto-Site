@@ -1,2 +1,3 @@
 # Projeto Site
- Rpojeto de um site criado durante curso de git e github
+ Projeto de um site criado durante curso de git e github
+ https://clebersbarbosa.github.io/Projeto-Site/
