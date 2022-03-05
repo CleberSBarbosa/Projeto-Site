@@ -26,6 +26,7 @@ main {
     width: 560px;
     margin: 25px auto;
     padding: 25px;
+    border-radius: 5px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -43,19 +44,18 @@ main {
 
 .center{
     text-align: center;
-
 }
 
 #logotipo-curso_em_video{
     text-align: center;
 }
 
-
+/*Efeito Pulse Início*/
 .pulse {
     animation: pulse 0.7s infinite;
     margin: 0 auto;
     display: table;
-    margin-top: 50px;
+    margin-top: 30px;
     animation-direction: alternate;
     -webkit-animation-name: pulse;
     animation-name: pulse;
@@ -82,3 +82,4 @@ main {
       filter: brightness(200%);
     }
   }
+  /*Efeito Pulse Final*/
